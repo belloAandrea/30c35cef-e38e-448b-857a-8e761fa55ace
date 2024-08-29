@@ -33,7 +33,7 @@ jobs:
               "target": "production",
               "gitSource": {
                 "type": "github",
-                "repoId": "belloaandrea",
+                "repoId": "belloAandrea/30c35cef-e38e-448b-857a-8e761fa55ace",
                 "ref": "main",
                 "branch": "main"
               }
