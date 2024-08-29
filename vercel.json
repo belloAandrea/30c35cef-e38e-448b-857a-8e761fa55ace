@@ -5,9 +5,4 @@
       "src": "next.config.js",
       "use": "@vercel/next"
     }
-  ],
-  "env": {},
-  "engines": {
-    "node": "16.x"
-  }
 }
