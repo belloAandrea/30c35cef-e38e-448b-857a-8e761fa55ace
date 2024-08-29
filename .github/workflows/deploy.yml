@@ -40,7 +40,5 @@ jobs:
           echo "Deployment response: $DEPLOYMENT_RESPONSE"
           DEPLOYMENT_URL=$(echo $DEPLOYMENT_RESPONSE | jq -r .url)
           echo "Vercel Deployment URL: $DEPLOYMENT_URL"
-          run: echo "Deployment URL: $DEPLOYMENT_URL"
+          echo "DEPLOYMENT_URL=$DEPLOYMENT_URL" >> $GITHUB_ENV
 
-      - name: Print Deployment URL
-        run: echo "Deployment URL: ${{ env.DEPLOYMENT_URL }}"
